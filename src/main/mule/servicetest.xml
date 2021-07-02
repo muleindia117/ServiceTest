@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="servicetestFlow" doc:id="62dd3088-e89f-4393-90e4-fab4b564b5ec" >
+		<http:listener doc:name="Listener" doc:id="e12e8a94-e1c0-4d58-b9bb-84a745e6a91d" />
+		<logger level="INFO" doc:name="Logger" doc:id="5677a14a-5b34-49d4-b67b-9c144d0fba12" />
+	</flow>
+</mule>
